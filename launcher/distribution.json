@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "Human_win-1.21.1",
-      "name": "쉘터온라인:인세비온 서버 (Minecraft 1.21.1)",
-      "description": "쉘터온라인:인세비온 전용 서버 (Fabric v0.16.14)",
+      "name": "쉘터온라인:인세비온 서버",
+      "description": "쉘터온라인:인세비온 전용 서버입니다.",
       "icon": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/profile_icon.png",
       "version": "1.0.0",
       "address": "humunwin.alcl.kr:25565",
