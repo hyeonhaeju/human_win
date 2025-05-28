@@ -1,0 +1,394 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Human_win-1.21.1",
+      "name": "인간승리 서버 (Minecraft 1.21.1)",
+      "description": "인간승리 전용 서버 (Fabric v0.16.14)",
+      "icon": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/profile_icon.png",
+      "version": "1.0.0",
+      "address": "humunwin.alcl.kr:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "228135e9452105817754e82e26b34358",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1082585,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/appleskin-fabric-mc1.21-3.0.6.jar",
+            "MD5": "a24c435e84973afd607e20395ecba19d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.1@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163784,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/caramelChat-mc1.21.1-fabric-1.2.1.jar",
+            "MD5": "a12a42dcc5ae49c9bb7ce00a11c87dd8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.2.2+1.21@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396723,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/citresewn-1.2.2+1.21.jar",
+            "MD5": "854f61b1e8c28a6f28cfcba4eff41647"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444709,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/entity_model_features_fabric_1.21.1-2.4.1.jar",
+            "MD5": "0dc5775f29f779b17cbf03d42c1a670e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 649930,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/entity_texture_features_fabric_1.21.1-6.2.9.jar",
+            "MD5": "4baf4440a9210304f2cd133e5673da33"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2410624,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/required/fabric-api-0.116.0+1.21.1.jar",
+            "MD5": "1bd792986afffe98797f7c1fea2624ce"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.3+kotlin.2.1.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7163558,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.3+kotlin.2.1.21.jar",
+            "MD5": "3c186cee540e7f21d8327bed71dd9d6b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.1+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2677842,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/iris-fabric-1.8.1+mc1.21.1.jar",
+            "MD5": "f485ec51b478ca0b4bf86256c1c82964"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade:jade:15.10.0+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 738810,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/Jade-1.21.1-Fabric-15.10.0.jar",
+            "MD5": "34b52d02f57bd5d4f7b9315baae27985"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75984,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/MouseTweaks-fabric-mc1.21-2.26.jar",
+            "MD5": "1d39ead1641ef522bc7ae92383f21da8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.5+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1289453,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/sodium-fabric-0.6.5+mc1.21.1.jar",
+            "MD5": "a3e62affdeb8c12331adaa2e1f783ed7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6608082,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/voicechat-fabric-1.21.1-2.5.30.jar",
+            "MD5": "ad948d180235434d829ce8efc0fa9a16"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.6@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1741254,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/Xaeros_Minimap_25.2.6_Fabric_1.21.jar",
+            "MD5": "b5af8349131a1a04e2da09ad678822f3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1116172,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.6.6+1.21.1-fabric.jar",
+            "MD5": "b68eee5cc922c8860816cab71460546f"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807934,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/fabricmods/optionalon/Zoomify-2.14.2+1.21.1.jar",
+            "MD5": "bcde79e6db9ba2b4077f8b911d5b3aab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "shopGUI.zip",
+          "name": "shopGUI.zip",
+          "type": "File",
+          "artifact": {
+            "size": 12139,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/resourcepacks/shopGUI.zip",
+            "MD5": "43b4971fdd136f53cbb84b83c0b5ea14",
+            "path": "resourcepacks/shopGUI.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.02.2.zip",
+          "name": "BSL_v8.4.02.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1108441,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/BSL_v8.4.02.2.zip",
+            "MD5": "595a27ea52eb9cdd9a71cdaacb59ce2d",
+            "path": "shaderpacks/BSL_v8.4.02.2.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.02.2.zip.txt",
+          "name": "BSL_v8.4.02.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 55,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/BSL_v8.4.02.2.zip.txt",
+            "MD5": "b687fb7a53aa7d0dd94c07b43b8c2b95",
+            "path": "shaderpacks/BSL_v8.4.02.2.zip.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "82b2c8fcddb3fdd191e07f96119bd598",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip",
+          "name": "photon_v1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3563885,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/photon_v1.1.zip",
+            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
+            "path": "shaderpacks/photon_v1.1.zip"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip.txt",
+          "name": "photon_v1.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/shaderpacks/photon_v1.1.zip.txt",
+            "MD5": "213097e348d843206b610ea795e315a9",
+            "path": "shaderpacks/photon_v1.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
