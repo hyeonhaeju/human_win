@@ -312,6 +312,72 @@
           }
         },
         {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/config/xaerominimap-common.txt",
+            "MD5": "c4bb2d96ebd8182b307ef6b2fda27370",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3642,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/config/xaerominimap.txt",
+            "MD5": "8d886f2e2476e23393b71bb265352d25",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/config/xaerominimap_entities.json",
+            "MD5": "6bd40b6090bab8517f75390c8d4d8c29",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 713,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/config/zoomify.json",
+            "MD5": "d9f3478ab4b72ca4d72e34de10c410d4",
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5828,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/launcher/servers/Human_win-1.21.1/files/options.txt",
+            "MD5": "4b8330eeaf5a19fc78297a0b73d0db08",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "shopGUI.zip",
           "name": "shopGUI.zip",
           "type": "File",
