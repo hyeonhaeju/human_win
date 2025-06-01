@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/huml/Nebula-master/workspace/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
+    "version": "2.0.1",
     "name": "쉘터온라인:인세비온 서버",
     "description": "쉘터온라인:인세비온 전용 서버입니다.",
     "icon": "https://raw.githubusercontent.com/hyeonhaeju/human_win/main/profile_icon.png",
